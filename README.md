@@ -1,4 +1,4 @@
-# People Manager App
+# People Manager App(Em desenvolvimento)
 
 O People Manager App é uma aplicação web para gerenciamento de estudantes, desenvolvida com back-end em Java 11 e Spring Boot, front-end em Angular, HTML, CSS, JS e TypeScript, e utilizando o banco de dados MySQL.
 
