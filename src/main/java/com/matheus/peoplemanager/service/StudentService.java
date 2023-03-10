@@ -1,5 +1,6 @@
 package com.matheus.peoplemanager.service;
 
+import com.matheus.peoplemanager.exception.UserNotFoundException;
 import com.matheus.peoplemanager.model.Student;
 import com.matheus.peoplemanager.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,11 @@ public class StudentService {
 
     public Student updateStudent(Student student){
         return studentRepo.save(student);
+    }
+
+    public Student findStudentById(Long id){
+        return studentRepo.findStudentById(id)
+                .orElseThrow(() ->new UserNotFoundException("User by id: " + id + " was not found"));
     }
 
     public void deleteStudent(Long id){
