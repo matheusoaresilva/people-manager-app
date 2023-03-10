@@ -79,4 +79,17 @@ public class Student {
     public void setStudentCode(String studentCode) {
         this.studentCode = studentCode;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", phone='" + phone + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", studentCode='" + studentCode + '\'' +
+                '}';
+    }
 }
