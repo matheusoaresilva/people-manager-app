@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8432553a-73a7-4574-a162-83325724da42" name="Changes" comment="Created StudentResource class and CRUD methods">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/PeopleManagerAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/repository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/resource/StudentResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matheus/peoplemanager/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matheus/peoplemanager/PeopleManagerAppApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="988477c1-b3ce-45a1-a1c2-6a63bd20f282" />
+        <option name="url" value="git@github.com:matheusoaresilva/people-manager-app.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mnq8WLZxlaAGzgoTWLS9Gqh4rj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/mathe/IdeaProjects/people-manager-app/Backend",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.matheus.peoplemanager.exception" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8432553a-73a7-4574-a162-83325724da42" name="Changes" comment="" />
+      <created>1678413535661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678413535661</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Created Student class">
+      <created>1678415818930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678415818930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created attributes">
+      <created>1678415989503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678415989503</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added constructors">
+      <created>1678416053121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416053121</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added getters and setters">
+      <created>1678416106412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416106412</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added toString">
+      <created>1678416130102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416130102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Mapping">
+      <created>1678416219490</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416219491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="MySQL configuration">
+      <created>1678416384332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416384332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created Repository: StudentRepo">
+      <created>1678416658684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416658684</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created Service: StudentService">
+      <created>1678416708592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678416708592</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added functionality to add students via the addStudent method in the StudentService class. The student code is automatically generated through the UUID class and the student data is saved in the database through the save method of the studentRepo object">
+      <created>1678417043571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678417043572</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added CRUD functionality to manage students, implemented methods to find all students, update a specific student, and delete a student from system">
+      <created>1678417636290</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678417636290</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added functionality to delete a student by ID in the StudentRepo class through the deleteStudentById method">
+      <created>1678417749821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678417749821</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added functionality to find a student by ID in the StudentService class">
+      <created>1678418064339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678418064339</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added functionality to find a student by ID in the StudentRepo class">
+      <created>1678418075676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678418075676</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added UserNotFoundException class to handle cases where a requested user is not found in the system">
+      <created>1678418119370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678418119370</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Extending RunTimeException in UserNotFoundException class">
+      <created>1678418268490</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678418268490</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Created StudentResource class and CRUD methods">
+      <created>1678419700534</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678419700534</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Student class" />
+    <MESSAGE value="Created attributes" />
+    <MESSAGE value="Added constructors" />
+    <MESSAGE value="Added getters and setters" />
+    <MESSAGE value="Added toString" />
+    <MESSAGE value="Mapping" />
+    <MESSAGE value="MySQL configuration" />
+    <MESSAGE value="Created Repository: StudentRepo" />
+    <MESSAGE value="Created Service: StudentService" />
+    <MESSAGE value="Added functionality to add students via the addStudent method in the StudentService class. The student code is automatically generated through the UUID class and the student data is saved in the database through the save method of the studentRepo object" />
+    <MESSAGE value="Added CRUD functionality to manage students, implemented methods to find all students, update a specific student, and delete a student from system" />
+    <MESSAGE value="Added functionality to delete a student by ID in the StudentRepo class through the deleteStudentById method" />
+    <MESSAGE value="Added functionality to find a student by ID in the StudentService class" />
+    <MESSAGE value="Added functionality to find a student by ID in the StudentRepo class" />
+    <MESSAGE value="Added UserNotFoundException class to handle cases where a requested user is not found in the system" />
+    <MESSAGE value="Extending RunTimeException in UserNotFoundException class" />
+    <MESSAGE value="Created StudentResource class and CRUD methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created StudentResource class and CRUD methods" />
+  </component>
+</project>
